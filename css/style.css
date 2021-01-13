@@ -1,0 +1,32 @@
+.bg_color{
+    background-color: lightgrey;
+    width: 370px;
+    height: 380px;
+    margin: 20px;
+    border-radius: 25px;
+}
+.card_border{
+    border-radius: 25px;
+    border: 0;
+}
+.footer_border{
+    border: 0;
+    background-color:white;
+}
+.footer_border button{
+    float: left;
+    padding-right: 20px;
+}
+.bg_color1{
+    width: 370px;
+    height: 380px;
+    margin: 20px;
+    border-radius: 25px;
+}
+.button_color{
+    background-color:#154cc2;
+    color: white;
+    padding: 0px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
