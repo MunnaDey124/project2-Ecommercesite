@@ -4,55 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=git, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <!-- nav-part -->
-    <header class="container mt-5">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img style="width: 300px;" src="images/logo/Logo.png" alt="" srcset="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </button>
-            </div>
-          </nav>
+<header>
+    <section class="container ">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand" href="#">
+            <img width="300px" src="images/logo/Logo.png" alt="" srcset="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>  
           <!-- header2-part -->
-          <section class="container">
-              <div class="row d-flex">
-                  <div class="col-md-5">
-                      <img style="width:100% ;" src="images/Group 33092.png" alt="" srcset="">
-                </div>
-                  <div class="col-md-7  px-6 ">
-                      <h1>Nike React</h1>
-                      <h1>Infinity Run 2</h1>
-                      <p>Lorem Ipsum is simply dummy text of the printing
-                    <br>and typesetting industry.</p>
-                      <button class="button_color">BUY NOW</button>
-                  </div>
+            <div class="row justify-content-around">
+              <div class="col-4">
+              <img src="images/Group 33092.png" width="100%" alt="" srcset="">
               </div>
-          </section>
-    </header>
+              <div class="col-4 mt-5 text_position">
+                <h1><span>NIKE REACT</span></h1>
+                <h1>INFINITY RUN 2</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing
+                  and typesetting industry.</p>
+                  <button  class="button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
+              </div>
+            </div>
+  </header>  
     <!-- main-part -->
     <main class="container mt-5">
         <h1>CASUAL SHOES</h1>
@@ -61,12 +62,12 @@
               <div class="card h-100 shadow-lg card_border">
                 <img class="bg_color" src="images/image 5.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Nike Shoe</h5>
+                  <h4 class="card-title">Nike Shoe</h4>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the<br>printing and typesetting industry</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between footer_border">
-                    <h1>$234</h1>
-                    <button  class="button_color">BUY NOW</button>
+                    <h1 class="price_color">$234</h1>
+                    <button  class="button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
                 </div>
               </div>
             </div>
@@ -74,12 +75,12 @@
               <div class="card h-100 shadow-lg card_border">
                 <img class="bg_color " src="images/Daco_1703273 1.png" alt="" srcset="">
                 <div class="card-body ">
-                  <h5 class="card-title">Sneakers Skate Shoe</h5>
+                  <h4 class="card-title">Sneakers Skate Shoe</h4>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the<br>printing and typesetting industry</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between  footer_border">
-                    <h1>$234</h1>
-                    <button class="button_color">BUY NOW</button>
+                    <h1 class="price_color">$234</h1>
+                    <button class="button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
                 </div>
               </div>
             </div>
@@ -87,12 +88,12 @@
               <div class="card h-100 shadow-lg card_border">
                 <img class="bg_color" src="images/pngegg 1.png"  class="card-img-top" alt="...">
                 <div class="card-body ">
-                  <h5 class="card-title">Sneakers Basketball shoe</h5>
+                  <h4 class="card-title">Sneakers Basketball shoe</h4>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the<br>printing and typesetting industry</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between  footer_border">
-                  <h1>$234</h1>
-                  <button class="button_color ">BUY NOW</button>
+                  <h1 class="price_color">$234</h1>
+                  <button class="button_color "><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
                 </div>
               </div>
             </div>
@@ -103,47 +104,182 @@
         <h1>CASUAL SHOES</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
             <div class="col">
-              <div class="card h-100 shadow-lg card_border">
+              <div class="card h-100 shadow card_border">
                 <img class="bg_color1" src="images/Mask Group.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Prestige High-Cut Leather </h5>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the<br>printing and typesetting industry</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between footer_border">
-                    <h1>$234</h1>
-                    <button  class="button_color">BUY NOW</button>
+                    <h1 class="price_color">$234</h1>
+                    <button  class="button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 shadow-lg card_border">
+              <div class="card h-100 shadow card_border">
                 <img class="bg_color1"  src="images/Rectangle 38.png" alt="" srcset="">
                 <div class="card-body ">
-                  <h5 class="card-title">Slip-On Formal Shoe </h5>
+                  <h4 class="card-title">Slip-On Formal Shoe </h4>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the<br>printing and typesetting industry</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between footer_border">
-                    <h1>$234</h1>
-                    <button class="button_color">BUY NOW</button>
+                    <h1 class="price_color">$234</h1>
+                    <button class="button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card h-100 shadow-lg card_border">
+            <div class="col ">
+              <div class="card h-100 shadow card_border">
                 <img class="bg_color1" src="images/Rectangle 39.png"  class="card-img-top" alt="...">
                 <div class="card-body ">
-                  <h5 class="card-title">Slip-On Formal Shoe</h5>
+                  <h4 class="card-title">Slip-On Formal Shoe</h4>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the<br>printing and typesetting industry</p>
                 </div>
                 <div class="card-footer d-flex justify-content-between footer_border">
-                  <h1>$234</h1>
-                  <button class="button_color">BUY NOW</button>
+                  <h1 class="price_color">$234</h1>
+                  <button class="button_color "><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
                 </div>
               </div>
             </div>
           </div>
     </main>
-        
+    <!-- sliding-part -->
+    <section class="container">
+      <div id="carouselExampleIndicators" class="carousel slide panda_slide mt-5" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex align-items-center p-5">
+                <div class="col-md-7">
+                  <h1>Sneakers Skate Shoe</h1>
+                  <p>This is the best Shoe in the world for people who just want to waste time in front of tv.
+                 </p>
+                 <h3 class="price_color">$200</h3>
+                 <button class="btn btn-primary button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/Rectangle 38.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <div class="row d-flex align-items-center p-5">
+               <div class="col-md-7">
+                 <h1> Sneakers Skate Shoe</h1>
+                 <p>This is the best Shoe in the world for people who just want to waste time in front of funky world.
+                </p>
+                <h3 class="price_color">$120</h3>
+                <button class="btn btn-primary button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
+               </div>
+               <div class="col-md-5">
+                <img src="images/Rectangle 39.png" class="d-block w-100" alt="...">
+               </div>
+           </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center p-5">
+                <div class="col-md-7">
+                  <h1>Sneakers Skate Shoe</h1>
+                 <p>This is the best Shoe in the world for people who just want to waste time in front of fake sports.</p>
+                <h3 class="price_color">$300</h3>
+                <button class="btn btn-primary button_color"><i class=" fas fa-shopping-cart m-4"></i>BUY NOW</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/Daco_1703273 1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+  </section>
+    <!-- end section -->
+    <section class="container mt-5 d-flex d-flex justify-content-betwwen  ">
+      <div class="row mb-5">
+        <div class="col-md-6">
+            <div class="card mt-3 p-4 shadow card_border" style="width: 570px; height: 160px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img width="110px"src="images/logo/image 12.png" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <div>
+                            <h5 class="card-title"> Find the Perfect Fit</h5>
+                            <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3 p-4 shadow card_border" style="width: 570px; height: 160px;">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img width="110px"src="images/logo/image 13.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                      <div>
+                          <h5 class="card-title"> Free Exchanges</h5>
+                          <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="card mt-3 p-4 shadow card_border" style="width: 570px; height: 160px;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img width="110px"src="images/logo/image 14.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div>
+                        <h5 class="card-title"> Contact Our Seller</h5>
+                        <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>       
+        </div>
+        <div class="col-md-6 mt-5 p-5">
+          <img width="100%" src="images/logo/XMLID 1.png" alt="" sizes="" srcset="">
+        </div>
+    </section>
+    <!-- contact form -->
+    <section class="contact_form">
+      <div class="container mt-5">
+        <div class="text-center">
+          <h1>Contact Us</h1>
+        </div>
+        <form class="p-3">
+          <div class="form-group mt-3">
+            <label class="form-label" for="usr">Name:</label>
+            <input type="text" class="form-control mt-3" id="usr">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label mt-3">Email address:</label>
+            <input type="email" class="form-control mt-3" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label ">Example text area:</label>
+            <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+            <button class="btn btn-danger">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+
+    
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
